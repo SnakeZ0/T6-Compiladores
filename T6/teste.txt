@@ -1,0 +1,12 @@
+NUM foo =  3+4
+CONSTNUM co 3
+CONSTSTR cs "gg"
+STR str="variavel string "
+SE co > 0 ENTAO
+    ENQUANTO foo<8 REPETE
+        NUM foo=foo+1
+        IMPRIME "sim!"
+        IMPRIME str
+    FIMENQUANTO
+FIMSE
+IMPRIME "SAIU"
